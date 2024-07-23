@@ -1,0 +1,76 @@
+.list-con{
+    list-style-type: none;
+    text-align: left;
+}
+.comments-text-con{
+    display: flex;
+  
+    
+}
+.profile{
+    background-color: orange;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: white;
+    margin-right: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+
+}
+.con{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.name{
+   font-weight: bold;
+
+}
+.time{
+    margin-left: 40px;
+    font-size: 10px;
+   
+
+}
+.comments{
+    font-size: 15px;
+}
+.name-time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.button-con{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.like-image{
+    height: 25px;
+    padding-top: 5px;
+    text-align: center;
+    margin-right: 10px;
+    margin-bottom: -3px;
+}
+.delete-img{
+    height: 20px;
+}
+.like-btn{
+    border-color: transparent;
+    background-color: transparent;
+    font-size: 15px;
+    text-align: center; 
+}
+.liked-false{
+    border-color: transparent;
+    background-color: transparent;
+    color: blue;
+    font-size: 15px;
+    text-align: center; 
+
+}
